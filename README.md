@@ -56,7 +56,7 @@ weather-app/
    - Open `script.js`
    - Replace the value of `api_key` with your own key:
      ```js
-     const api_key = "your_api_key_here";
+     const api_key = "c1b6f71c72447b4cb78499bb154473c6";
      ```
 
 4. **Run the app**
@@ -67,7 +67,7 @@ weather-app/
 This project uses the [OpenWeatherMap Current Weather API](https://openweathermap.org/current):
 
 ```
-GET https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}
+GET https:`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`
 ```
 
 ## 📌 Notes
